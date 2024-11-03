@@ -11,7 +11,6 @@ import { signIn } from "next-auth/react";
 import { AuthError } from "next-auth";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import Logo from "@/components/ui/logo";
 
 export default function SignupPage() {
